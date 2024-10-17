@@ -1,3 +1,6 @@
-C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\GCP_GFX_Framework.cpp;C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\GCP_GFX_Framework.obj
-C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\glew.c;C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\glew.obj
-C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Main.cpp;C:\Users\s5509190\Downloads\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\Main.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\Camera.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\GCP_GFX_Framework.cpp;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\GCP_GFX_Framework.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\glew.c;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\glew.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Main.cpp;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\Main.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\RayTracer.cpp;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\RayTracer.obj
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Sphere.cpp;D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\x64\Debug\Sphere.obj
