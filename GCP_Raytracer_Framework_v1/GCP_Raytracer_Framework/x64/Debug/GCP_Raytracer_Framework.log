@@ -1,2 +1,5 @@
 ﻿  Main.cpp
+  RayTracer.cpp
+  Sphere.cpp
+  Generating Code...
   GCP_Raytracer_Framework.vcxproj -> D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\x64\Debug\GCP_Raytracer_Framework.exe

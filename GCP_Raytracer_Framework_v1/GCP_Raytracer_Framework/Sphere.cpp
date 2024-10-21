@@ -41,12 +41,21 @@ bool Sphere::RayIntersect(Ray* _ray, glm::vec3& Intersect_) {
 }
 
 glm::vec3 Sphere::Shade(glm::vec3 _Intersect) {
-	return glm::vec3();
+
+	glm::vec3 W = glm::vec3(0.5f, 0.5, 0.0f);
+
+	glm::vec3 L = glm::dot(W, GetNormal(_Intersect)) * Colour;
+
+	if (glm::dot(W, GetNormal(_Intersect)) >= 0) {
+
+	}
+
+
+	return L;
 
 }
 
-glm::vec3 Sphere::GetNormal() { 
-	return glm::vec3();
+glm::vec3 Sphere::GetNormal(glm::vec3 _Intersect) {
 
-
+	return glm::normalize(_Intersect - Position);
 }

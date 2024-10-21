@@ -13,7 +13,7 @@ public:
 
 	glm::vec3 Shade(glm::vec3 _Intersect);
 
-	glm::vec3 GetNormal();
+	glm::vec3 GetNormal(glm::vec3 _Intersect);
 
 private:
 	glm::vec3 Position;

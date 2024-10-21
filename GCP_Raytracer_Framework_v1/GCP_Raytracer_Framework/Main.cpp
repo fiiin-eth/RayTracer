@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	RayTracer RT;
 	Camera cam;
 
-	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 10.0f );
+	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 40.0f );
 
 	RT.Objects.push_back(newSphere);
 
@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 					pixelColour = { 1, 0, 0 };
 				}
 				else {
-					pixelColour = { 0, 0, 0 };
+					pixelColour = { 0, 0, 0 }; 
 				}
 
 			}
