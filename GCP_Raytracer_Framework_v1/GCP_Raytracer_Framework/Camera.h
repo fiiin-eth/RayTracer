@@ -6,7 +6,7 @@
 class Camera {
 
 public:
-	Ray* GetRay(glm::ivec2 _WinPos);
+	Ray GetRay(glm::ivec2 _WinPos);
 
 private:
 	glm::mat4 ViewMat;

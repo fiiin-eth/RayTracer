@@ -6,10 +6,10 @@
 class Sphere {
 
 public:
-	Sphere(glm::vec3 Position, float Radius);
+	Sphere(glm::vec3 Position, float Radius, glm::vec3 Colour);
 
 
-	bool RayIntersect(Ray* _ray, glm::vec3& Intersect_);
+	bool RayIntersect(Ray _ray, glm::vec3& Intersect_);
 
 	glm::vec3 Shade(glm::vec3 _Intersect);
 

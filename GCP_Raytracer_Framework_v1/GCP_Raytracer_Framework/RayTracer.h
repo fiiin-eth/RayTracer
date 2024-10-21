@@ -11,7 +11,7 @@ public:
 	RayTracer();
 	~RayTracer();
 
-	//glm::vec3 TraceRay(Ray _ray);
+	glm::vec3 TraceRay(Ray _ray);
 
 	std::vector<Sphere*> Objects;
 

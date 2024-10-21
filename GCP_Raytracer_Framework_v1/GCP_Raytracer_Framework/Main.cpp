@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	RayTracer RT;
 	Camera cam;
 
-	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 40.0f );
+	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 40.0f, glm::vec3(1.0f,0.0f,0.0f) );
 
 	RT.Objects.push_back(newSphere);
 
@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
 
 
 	// Sets all pixels the same colour
-    _myFramework.SetAllPixels( glm::vec3(0.1f,0.1f,0.3f) );
+    //_myFramework.SetAllPixels( glm::vec3(0.1f,0.1f,0.3f) );
 
 	// Draws a single pixel
 	//_myFramework.DrawPixel(pixelPosition, pixelColour);
@@ -49,16 +49,8 @@ int main(int argc, char* argv[])
 		for (int y = 0; y < 480; y++) {
 
 			pixelPosition = { x,y };
-			Ray* ray = cam.GetRay(pixelPosition);
-			for (int i = 0; i < RT.Objects.size(); i++) {
-				if (RT.Objects[i]->RayIntersect(cam.GetRay(pixelPosition), Intersect)) {
-					pixelColour = { 1, 0, 0 };
-				}
-				else {
-					pixelColour = { 0, 0, 0 }; 
-				}
-
-			}
+			Ray ray = cam.GetRay(pixelPosition);
+			pixelColour = RT.TraceRay(ray);
 			_myFramework.DrawPixel(pixelPosition, pixelColour);
 		}
 	}

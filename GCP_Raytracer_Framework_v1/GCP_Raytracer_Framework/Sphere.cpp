@@ -2,14 +2,14 @@
 #include "Ray.h"
 
 
-Sphere::Sphere(glm::vec3 Position, float Radius) : Position(Position), Radius(Radius) {
+Sphere::Sphere(glm::vec3 Position, float Radius, glm::vec3 Colour) : Position(Position), Radius(Radius), Colour(Colour) {
 
 }
 
-bool Sphere::RayIntersect(Ray* _ray, glm::vec3& Intersect_) {
+bool Sphere::RayIntersect(Ray _ray, glm::vec3& Intersect_) {
 
-	glm::vec3 a = _ray->Origin;
-	glm::vec3 n = _ray->Direction;
+	glm::vec3 a = _ray.Origin;
+	glm::vec3 n = _ray.Direction;
 	glm::vec3 ClosestIntersection;
 
 	float d;
@@ -45,10 +45,6 @@ glm::vec3 Sphere::Shade(glm::vec3 _Intersect) {
 	glm::vec3 W = glm::vec3(0.5f, 0.5, 0.0f);
 
 	glm::vec3 L = glm::dot(W, GetNormal(_Intersect)) * Colour;
-
-	if (glm::dot(W, GetNormal(_Intersect)) >= 0) {
-
-	}
 
 
 	return L;
