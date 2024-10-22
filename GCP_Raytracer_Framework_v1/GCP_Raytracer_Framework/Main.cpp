@@ -16,9 +16,11 @@ int main(int argc, char* argv[])
 	RayTracer RT;
 	Camera cam;
 
-	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 40.0f, glm::vec3(1.0f,0.0f,0.0f) );
-
+	Sphere* newSphere = new Sphere(glm::vec3(320.0f,240.0f,-80.0f), 70.0f, glm::vec3(1.0f,0.0f,0.0f) );
 	RT.Objects.push_back(newSphere);
+
+	Sphere* newSphere2 = new Sphere(glm::vec3(280.0f, 240.0f, -180.0f), 70.0f, glm::vec3(0.0f, 1.0f, 0.0f));
+	RT.Objects.push_back(newSphere2);
 
 	// Initialises SDL and OpenGL and sets up a framebuffer
 	if (!_myFramework.Init(winSize))
@@ -49,7 +51,7 @@ int main(int argc, char* argv[])
 		for (int y = 0; y < 480; y++) {
 
 			pixelPosition = { x,y };
-			Ray ray = cam.GetRay(pixelPosition);
+			Ray ray = cam.GetRay(pixelPosition, winSize);
 			pixelColour = RT.TraceRay(ray);
 			_myFramework.DrawPixel(pixelPosition, pixelColour);
 		}

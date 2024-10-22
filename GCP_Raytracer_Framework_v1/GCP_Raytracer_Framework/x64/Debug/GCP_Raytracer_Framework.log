@@ -1,2 +1,5 @@
-﻿  Sphere.cpp
+﻿  Camera.cpp
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(11,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(12,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(9,8): warning C4101: 'z': unreferenced local variable
   GCP_Raytracer_Framework.vcxproj -> D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\x64\Debug\GCP_Raytracer_Framework.exe
