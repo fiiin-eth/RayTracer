@@ -1,5 +1,15 @@
 ﻿  Camera.cpp
-D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(11,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(12,49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(9,8): warning C4101: 'z': unreferenced local variable
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(23,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(23,59): warning C4244:         with
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(23,59): warning C4244:         [
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(23,59): warning C4244:             T=float
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(23,59): warning C4244:         ]
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(24,59): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(24,59): warning C4244:         with
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(24,59): warning C4244:         [
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(24,59): warning C4244:             T=float
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Camera.cpp(24,59): warning C4244:         ]
+  Main.cpp
+D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\GCP_Raytracer_Framework\Main.cpp(48,12): warning C4101: 'Intersect': unreferenced local variable
+  Generating Code...
   GCP_Raytracer_Framework.vcxproj -> D:\Fin\RayTracer\GCP_Raytracer_Framework_v1\x64\Debug\GCP_Raytracer_Framework.exe

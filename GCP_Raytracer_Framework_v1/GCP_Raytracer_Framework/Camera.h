@@ -14,6 +14,7 @@ public:
 private:
 	glm::mat4 ViewMat;
 	glm::mat4 uProjection;
+	glm::mat4 uView;
 	glm::vec4 NearView;
 	glm::vec4 FarView;
 };
